@@ -1,0 +1,52 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-siteperso-dev-142543-authRole",
+      "UnauthRoleArn": "arn:aws:iam::829251950643:role/amplify-siteperso-dev-142543-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::829251950643:role/amplify-siteperso-dev-142543-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-siteperso-dev-142543-deployment",
+      "UnauthRoleName": "amplify-siteperso-dev-142543-unauthRole",
+      "StackName": "amplify-siteperso-dev-142543",
+      "StackId": "arn:aws:cloudformation:eu-west-3:829251950643:stack/amplify-siteperso-dev-142543/cee0b490-611e-11ee-9ee7-0e26853fc188",
+      "AmplifyAppId": "dpch4gnjixeqb"
+    },
+    "categories": {
+      "function": {
+        "lambdaFunction": {}
+      }
+    }
+  },
+  "app": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-siteperso-app-152521-authRole",
+      "UnauthRoleArn": "arn:aws:iam::829251950643:role/amplify-siteperso-app-152521-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::829251950643:role/amplify-siteperso-app-152521-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-siteperso-app-152521-deployment",
+      "UnauthRoleName": "amplify-siteperso-app-152521-unauthRole",
+      "StackName": "amplify-siteperso-app-152521",
+      "StackId": "arn:aws:cloudformation:eu-west-3:829251950643:stack/amplify-siteperso-app-152521/237ff030-6127-11ee-8dd9-0ae0563598ae",
+      "AmplifyAppId": "d4v2m99ytfjhw"
+    },
+    "categories": {
+      "function": {
+        "lambdaFunction": {
+          "deploymentBucketName": "amplify-siteperso-app-152521-deployment",
+          "s3Key": "amplify-builds/lambdaFunction-524b666a316539615933-build.zip"
+        },
+        "siteperso832c517d": {
+          "deploymentBucketName": "amplify-siteperso-app-152521-deployment",
+          "s3Key": "amplify-builds/siteperso832c517d-757733412f2f64464c4d-build.zip"
+        },
+        "siteperso6613a389": {
+          "deploymentBucketName": "amplify-siteperso-app-152521-deployment",
+          "s3Key": "amplify-builds/siteperso6613a389-5250334672364458304e-build.zip"
+        }
+      },
+      "api": {
+        "api": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/api": {
+      "name": "/api",
+      "lambdaFunction": "lambdaFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/form": {
+      "name": "/form",
+      "lambdaFunction": "siteperso832c517d",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "api": {
+    "api": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "lambdaFunction"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "siteperso832c517d"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "lambdaFunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "siteperso6613a389": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "siteperso832c517d": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_lambdaFunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "lambdaFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_lambdaFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "lambdaFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_siteperso6613a389_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "siteperso6613a389"
+        }
+      ]
+    },
+    "AMPLIFY_function_siteperso6613a389_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "siteperso6613a389"
+        }
+      ]
+    },
+    "AMPLIFY_function_siteperso832c517d_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "siteperso832c517d"
+        }
+      ]
+    },
+    "AMPLIFY_function_siteperso832c517d_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "siteperso832c517d"
+        }
+      ]
+    }
+  }
+}
